@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>صَفَرٌ</h1>
+            <div class="logo">
+                <img src="logo.PNG" alt="Logo">
+            </div>
+            <nav class="navbar1">
+                <a href="debut.html">Accueil</a>
+                <a href="search.html">Rechercher</a>
+                <a href="cart.html">Mon Panier</a>
+            </nav>
+            <nav class="navbarconnexion">
+                <div class="logo2">
+                    <a href="login.html" id="logout"><img src="logoconnexion.png" alt="logoconnexion" width="40px" height="40px"></a>
+                </div>
+            </nav>
+            <div class="header-content">
+                <h2>Embarquez sur les Rails de </h2>
+                <h1>l'Aventure et de la Durabilité !</h1>
+            </div>
+        </header>
+     <h1>Connexion</h1>
+    <main>
+        <form id="login-form">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Se connecter</button>
+            <div id="login-error" class="error"></div>
+        </form>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <section id="disclaimer"><p>Les photos des articles ne sont pas contractuelles.</p></section>
+            <section id="help">
+                <h2>Services d'aide</h2>
+                <ul>
+                    <li>FAQ</li>
+                    <li>Montage de PC</li>
+                    <li>Garanties</li>
+                    <li>SAV</li>
+                </ul>
+            </section>
+            <section id="whoAreWe">
+                <h2>Qui sommes nous ?</h2>
+                <ul>
+                    <li>L'entreprise</li>
+                    <li>Le groupe</li>
+                    <li>CGV</li>
+                    <li>CGU</li>
+                    <li>Mentions légales</li>
+                </ul>
+            </section>
+            <section id="joinUs">
+                <h2>Nous rejoindre</h2>
+                <ul>
+                    <li>Devenir franchisé</li>
+                    <li>Recrutement</li>
+                    <li>Marketplace</li>
+                </ul>
+            </section>
+            <section id="contact">
+                <h2>Nous contacter</h2>
+                <a href="mailto:contact@contact.com" ><img src="email-open.png" alt="Mail"/> Par Mail</a>
+                <a href="tel:+33666666666" ><img src="phone.png" alt="Phone"/> Par téléphone</a>
+            </section>
+        </div>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>

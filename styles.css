@@ -1,0 +1,413 @@
+/*--------------CORPS DE PAGE------------*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  header {
+    padding: 20px;
+    background-color: #e6e9df;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    text-align: left;
+  }
+  
+  main {
+    height: auto;
+    background-color: #FFFFFF;
+    box-shadow: 4px 8px 14px 7px #826256;
+    padding: 65px;
+    border-radius: 60px;
+    margin: 165px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e9df;
+}
+
+/*header {
+    padding: 10px;
+    text-align: left;
+}*/
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    size: auto ;
+}
+
+h2{
+    color: black;
+    text-align: center;
+
+}
+
+h1{
+    color: #009688;
+    text-align: center;
+    font-size: 22px;
+    
+}
+
+p{
+    text-align: center;
+}
+
+
+/*---------------LOGO----------------------*/
+
+.logo img {
+  height: 400px;  /*Ajuster en fonction de la taille réelle du logo*/ 
+}
+
+@media (max-width: 400px) {
+  .logo img {
+      width: 100%;
+  }
+}
+
+
+.logo{
+  text-align: right;
+  height: 1px;
+}
+
+.navbarconnexion {
+  text-align: right;
+  align-items: right;
+}
+
+.logo2{
+  margin: -52px;
+  padding: 53px;
+}
+
+/*---------------HEADER----------------------*/
+
+.header-content {
+    background-color: #ccefe7/*#009688*/; /*Couleur de fond*/ 
+    color: white;  /*Couleur de texte*/
+    padding: 84px;
+    margin-top: 19px;
+}
+
+.header-content h1 {
+    margin: 0 0 20px 0;
+}
+
+/*.header-content form {
+    display: inline-block;
+}*/
+
+.header-content input[type="email"] {
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+}
+
+.header-content button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /*----------------------------NAVBAR-----------------*/
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+    text-decoration: none;  
+    margin-top: -30px;
+  }
+
+  a {
+    color: grey;
+    text-decoration: none;
+    margin: 7.2px;
+}
+
+a:hover {
+  color:#009688 ;
+}
+
+a:active {
+  color:#009688 ;
+}
+
+
+
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    
+  }
+  .nav-links li {
+    padding: 10px;
+    text-decoration: none;
+    text-decoration: gray;
+  }
+
+
+  #menu {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background-color: #444444;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  .navbar li {
+    height: auto;
+    text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #444444;
+    
+  }
+
+  .navbar a {
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none;
+    color: white;
+    
+  }
+
+
+  /*---------------------RECHERCHE BILLET-------------*/
+
+  .search-container {
+    display: flex;
+ 
+  }
+  .search-container input[type=text] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .search-container button {
+    padding: 5px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 5px black;
+  }
+  .search-container button:hover {
+    background-color: #009688;
+  }
+
+
+.error {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form button {
+    margin: 5px 0;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+/*--------------------RESULTAT DES BILLETS-------------------*/
+
+.ticket, .result, .cart-item {
+    border: 1px solid #ddd;
+    border: 7px solid #ddd;
+    padding: 0px;
+    margin: 40px 0;
+    border-radius: 252px;
+    text-align: center;
+}
+
+#searchSection, #cartSection {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#resultsSection {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/*-------------RESPONCIVE----------*/
+
+@media (max-width: 600px) {
+    header, nav, main, footer {
+        padding: 0.5em;
+    }
+    form label, form input, form button {
+        margin: 2px 0;
+    }
+}
+
+
+
+  
+  /*----------------BOUTONS------------------*/
+  
+  label {
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  input,
+  button {
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 6px;
+    background-color: #E1E8EE;
+    border-radius: 15px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #009688;
+    color: #FFFFFF;
+  }
+  
+  button:hover {
+    background-color: #009688;
+  }
+  
+  #results {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ticket {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .ticket img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+  
+  .ticket-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ticket-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-time {
+    font-size: 16px;
+    color: #86939E;
+    margin-bottom: 10px;
+  }
+
+
+/*-------------FOOTER-------------*/
+
+  footer{
+	background-color: #a6887f;
+	color:rgb(0, 0, 0);
+	padding-bottom: 2%;
+}
+
+.footerContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.footerContainer section{
+	flex-basis: 15%;
+	flex-grow: 0;
+}
+
+#disclaimer{
+	text-align: center;
+	font-size: 0.8em;
+	flex-basis: 100%;
+	border-bottom: 0.5px #ffffff66 solid;
+}
+
+footer h2{
+	text-transform: uppercase;
+	font-size: 1em;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+footer h2::after{
+	content: '';
+	width: 20%;
+	height: 2px;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+footer ul{
+	padding:0px;
+}
+
+footer li{
+	margin-bottom: 5px;	
+}
+
+#contact a{
+	width: 70%;
+	color: black;
+	background-color: #ccefe7;
+	padding:15px;
+	box-sizing: border-box;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 5%;
+	/* height: 200px; */
+}
+
+#contact a img{
+	height: 25px;
+	margin-right:5%;
+}
